@@ -1,0 +1,29 @@
+{
+    "datapath": {
+        "0000000000000002": {
+            "rules": [
+                {
+                    "eth_type": 2048,
+                    "ip_proto": 17,
+                    "ipv4_dst": "10.0.0.5",
+                    "udp_dst": 443
+                },
+                {
+                    "eth_type": 2048,
+                    "ip_proto": 6,
+                    "tcp_dst": 80
+                },
+                {
+                    "eth_type": 2048,
+                    "ip_proto": 1,
+                    "ipv4_src": "10.0.0.4",
+                    "icmpv4_type": 8
+                },
+                {
+                    "eth_type": 2048,
+                    "ipv4_dst": "10.0.0.3"
+                }
+            ]
+        }
+    }
+}

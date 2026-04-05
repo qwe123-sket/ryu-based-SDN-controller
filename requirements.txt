@@ -1,0 +1,2 @@
+# Ryu OpenFlow controller (install inside course VM or Linux venv)
+ryu>=4.34
