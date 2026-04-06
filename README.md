@@ -56,7 +56,7 @@ sudo apt update
 sudo apt install -y mininet openvswitch-switch python3-pip
 ```
 
-## Run (every lab session)
+## Run 
 
 1. Open a terminal in the **same directory as `rules.json`** (relative path used by the app).
 2. Start the controller:
