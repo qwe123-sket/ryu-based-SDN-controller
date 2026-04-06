@@ -22,3 +22,10 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local scratch (not part of coursework)
+main.py
+
+# Large local installers (do not commit)
+VirtualBox-*.exe
+VBoxGuestAdditions*.iso
